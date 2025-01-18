@@ -1,11 +1,6 @@
-title: Chening Yang
-description: AI Director specialized in VRDU and RAG
-baseurl: ""
-url: "https://jeff52415.github.io"
-
-# Build settings
-markdown: kramdown
-theme: minima
+remote_theme: pages-themes/hacker@v0.2.0
 plugins:
-  - jekyll-feed
-  - jekyll-seo-tag 
+- jekyll-remote-theme
+
+title: Chening Yang
+description: AI Director | Leading R&D in VRDU and Agentic RAG 

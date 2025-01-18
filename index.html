@@ -4,59 +4,35 @@ layout: default
 
 <div class="home">
   <header class="profile-header">
-    <div class="profile-image">
-      <img src="assets/images/profile.jpg" alt="Profile Photo">
-    </div>
-    <h1>Chening Yang</h1>
-    <h2>AI Director</h2>
-    
-    <div class="profile-description">
-      <p>Specialized in Visually Rich Document Understanding (VRDU) and Agentic Retrieval-Augmented Generation (RAG), with a proven track record of leading teams to develop innovative, impactful AI solutions. Leveraging extensive experience as a full-stack AI engineer and researcher, I bridge cutting-edge advancements with real-world applications, driving transformative value across industries.</p>
+    <div class="text-content">
+      <h1>Chening Yang</h1>
+      <h2>AI Director</h2>
+      <div class="profile-description">
+        <p>Leading a talented R&D team of over 40 professionals, specialized in Visually Rich Document Understanding (VRDU) and Agentic Retrieval-Augmented Generation (RAG). With a proven track record of driving innovative, impactful AI solutions, I bridge cutting-edge advancements with real-world applications, delivering transformative value across industries.</p>
+      </div>
     </div>
   </header>
 
   <section class="contact-info">
-    <ul>
-      <li><a href="mailto:jeff52415@gmail.com"><i class="fas fa-envelope"></i> jeff52415@gmail.com</a></li>
-      <li><i class="fas fa-phone"></i> +886-988663505</li>
-      <li><i class="fas fa-map-marker-alt"></i> Taipei, Tokyo</li>
-      <li><a href="https://linkedin.com/in/chening-yang-6ab362a5"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
-      <li><a href="https://github.com/jeff52415"><i class="fab fa-github"></i> GitHub</a></li>
-    </ul>
-  </section>
-
-  <section class="work-experience">
-    <h2><i class="fas fa-briefcase"></i> Work Experience</h2>
-    
-    <div class="job">
-      <h3>AI Director - CinnamonAI</h3>
-      <p class="job-period">04/2023 - Present | Japan, Tokyo</p>
-      <ul>
-        <li>Directed an R&D team of more than 40 professionals in company's product development and launch.</li>
-        <li>Devised tech team vision and strategies for competitive advantage.</li>
-        <li>Co-directed company's strategic alignment with CEO.</li>
-      </ul>
-      <p class="contact">Contact: Hajime Hotta - hajime@cinnamon.is</p>
-    </div>
-
-    <div class="job">
-      <h3>Tech Lead - CinnamonAI</h3>
-      <p class="job-period">04/2020 - 03/2023 | Taipei, Taiwan</p>
-      <ul>
-        <li>Managed a high-performing functional tech team of over 20 professionals.</li>
-        <li>Enhanced product suite through delivery of advanced AI solutions.</li>
-        <li>Personally ideated and led the implementation of a state-of-the-art AI feature, with more than 80% of the technology applied across CinnamonAI products.</li>
-      </ul>
-    </div>
-
-    <div class="job">
-      <h3>AI Specialist - Cupoy</h3>
-      <p class="job-period">05/2019 - 07/2021</p>
-      <ul>
-        <li>Designed comprehensive online courses in NLP and CV.</li>
-        <li>Guided course participants to successfully complete marathon learning sessions.</li>
-      </ul>
-      <p class="contact">Contact: 裴超顯 - fancy.pei@gmail.com</p>
+    <div class="terminal">
+      <div class="terminal-header">
+        <span class="terminal-button"></span>
+        <span class="terminal-button"></span>
+        <span class="terminal-button"></span>
+        <span class="terminal-title">contact_info.sh</span>
+      </div>
+      <div class="terminal-body">
+        <p class="command">$ cat contact_details.txt</p>
+        <div class="output">
+          <ul>
+            <li><span class="prompt">></span> <a href="mailto:jeff52415@gmail.com"><i class="fas fa-envelope"></i> jeff52415@gmail.com</a></li>
+            <li><span class="prompt">></span> <i class="fas fa-map-marker-alt"></i> Taipei, Tokyo</li>
+            <li><span class="prompt">></span> <a href="https://linkedin.com/in/chening-yang-6ab362a5"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+            <li><span class="prompt">></span> <a href="https://github.com/jeff52415"><i class="fab fa-github"></i> GitHub</a></li>
+          </ul>
+        </div>
+        <p class="command">$ _</p>
+      </div>
     </div>
   </section>
 
@@ -82,48 +58,205 @@ layout: default
     </div>
   </section>
 
-  <section class="projects">
-    <h2><i class="fas fa-code"></i> Personal Projects</h2>
+  <section class="research-landscape">
+    <h2><i class="fas fa-microscope"></i> Research Landscape</h2>
+    <div class="timeline-item">
+      <h3>2024 H2</h3>
+      <div class="research-item">
+        <h4><span class="topic">LLM / Embedding Model Serving</span></h4>
+        <p>Researched scalable and efficient methods for serving LLMs and embedding models in production environments to support high-throughput applications.</p>
+        <p class="tech-stack"><strong>Tech Stack</strong>: Text Generation Inference, vLLM, SGLang, Text Embeddings Inference.</p>
+      </div>
+      <div class="research-item">
+        <h4><span class="topic">Multi-Agent RAG</span></h4>
+        <p>Explored advanced agentic RAG frameworks for scalable tool usage, memory organization, query management, reflection, reasoning, and execution.</p>
+        <p class="tech-stack"><strong>Tech Stack</strong>: MetaGPT, AutoGen.</p>
+      </div>
+      <div class="research-item">
+        <h4><span class="topic">LLM Architecture</span></h4>
+        <p>Conducted a comprehensive survey of fundamental structures and design principles behind various LLM models.</p>
+        <p class="tech-stack"><strong>Tech Stack</strong>: DeepSeek, LLaMA, Owen, Titans.</p>
+      </div>
+      <div class="research-item">
+        <h4><span class="topic">Graph-Based RAG</span></h4>
+        <p>Researched graph-based retrieval paradigms and algorithms to enhance retrieval performance, exploring single- and multi-graph architectures, as well as layout-based and domain-entity graphs.</p>
+        <p class="tech-stack"><strong>Tech Stack</strong>: Microsoft GraphRAG, Neo4j.</p>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <h3>2024 H1</h3>
+      <div class="research-item">
+        <h4><span class="topic">Document Structurization</span></h4>
+        <p>Built an end-to-end solution to transform unstructured or semi-structured data into structured formats easily interpretable by LLMs. Examples include converting Excel/PDF files into JSON or Markdown.</p>
+        <p class="tech-stack"><strong>Tech Stack</strong>: Transformers, Gradio, Docling, Unstructured-IO, LlamaParse, Azure AI Document Intelligence.</p>
+      </div>
+      <div class="research-item">
+        <h4><span class="topic">LLM Reasoning and Acting</span></h4>
+        <p>Researched various LLM reasoning schemas with Human-in-the-loop approaches, including Chain-of-Thought (CoT), Tree-of-Thought (ToT), Self-Consistency, ReAct, and Retrieval-Augmented Workflow Optimization (ReWOO).</p>
+        <p class="tech-stack"><strong>Tech Stack</strong>: LangGraph, LangSmith, LlamaIndex, Haystack.</p>
+      </div>
+      <div class="research-item">
+        <h4><span class="topic">Retrieval-Augmented Generation</span></h4>
+        <p>Developed an LLM-powered chatbot utilizing Retrieval-Augmented Generation (RAG) to effectively leverage user-provided data for generating accurate and contextually grounded answers.</p>
+        <p class="tech-stack"><strong>Tech Stack</strong>: Elasticsearch, Milvus, Kotaemon.</p>
+      </div>
+      <div class="research-item">
+        <h4><span class="topic">Trustworthy LLM</span></h4>
+        <p>Investigated methods to reduce LLM hallucinations and enhance knowledge grounding for trustworthy AI outputs.</p>
+        <p class="tech-stack"><strong>Tech Stack</strong>: TruLens, Ragas, DeepEval.</p>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <h3>2023 H2</h3>
+      <div class="research-item">
+        <h4><span class="topic">Tech Stack Management</span></h4>
+        <p>Investigated effective approaches to organize and manage technical assets for streamlined workflows.</p>
+        <p class="tech-stack"><strong>Tech Stack</strong>: Hugging Face Hub, Hugging Face Spaces.</p>
+      </div>
+      <div class="research-item">
+        <h4><span class="topic">Table Detection and Recognition</span></h4>
+        <p>Researched methodologies for extracting table information, exploring specialized models for table detection and recognition.</p>
+        <p class="tech-stack"><strong>Tech Stack</strong>: DETR, TATR.</p>
+      </div>
+      <div class="research-item">
+        <h4><span class="topic">ETL Pipeline</span></h4>
+        <p>Designed an efficient ETL pipeline for performance tracking and continuous improvement of workflows.</p>
+        <p class="tech-stack"><strong>Tech Stack</strong>: Apache Airflow, Docker Swarm, Kubernetes.</p>
+      </div>
+      <div class="research-item">
+        <h4><span class="topic">LLM Training</span></h4>
+        <p>Researched techniques for training and serving large language models (LLMs), covering pretraining, supervised training, preference alignment (RLHF), quantization, and low-rank adaptation methods.</p>
+        <p class="tech-stack"><strong>Tech Stack</strong>: PEFT, OpenAI, bitsandbytes, W&B, TorchTune, LangChain, Accelerate.</p>
+      </div>
+      <div class="research-item">
+        <h4><span class="topic">Multi-Label Classification</span></h4>
+        <p>Researched lightweight CNN and ViT architectures to develop efficient multi-label classifiers for diverse datasets and tasks.</p>
+        <p class="tech-stack"><strong>Tech Stack</strong>: Dino, PyTorch Image Models.</p>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <h3>2023 H1</h3>
+      <div class="research-item">
+        <h4><span class="topic">Lightweight Multimodal Architecture</span></h4>
+        <p>Developed a CPU-compatible transformer-based architecture for information extraction, integrating image and text inputs while emphasizing spatial information learning. Achieved state-of-the-art performance among lightweight transformer models. Published two accepted papers at ICDAR 2024.</p>
+        <p class="tech-stack"><strong>Tech Stack</strong>: Transformers, FAISS.</p>
+      </div>
+      <div class="research-item">
+        <h4><span class="topic">Text Recognition</span></h4>
+        <p>Researched advanced OCR architectures, focusing on transformer-based encoder-decoder models with innovative image synthesis and augmentation techniques.</p>
+        <p class="tech-stack"><strong>Tech Stack</strong>: PyTorch Lightning, Albumentations.</p>
+      </div>
+      <div class="research-item">
+        <h4><span class="topic">Training Strategies</span></h4>
+        <p>Experimented with training techniques for CNN and transformer-based architectures, including Stochastic Depth, Teacher-Student Knowledge Distillation, Label Smoothing, and learning rate warm-up strategies.</p>
+        <p class="tech-stack"><strong>Tech Stack</strong>: PyTorch Image Models (timm).</p>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <h3>2022 H2</h3>
+      <div class="research-item">
+        <h4><span class="topic">Document Object Detection</span></h4>
+        <p>Experimented with anchor-based and anchor-free architectures for document object extraction.</p>
+        <p class="tech-stack"><strong>Tech Stack</strong>: Ultralytics, MMDetection.</p>
+      </div>
+      <div class="research-item">
+        <h4><span class="topic">Sentence Embedding</span></h4>
+        <p>Researched lightweight multilingual sentence embedding techniques for improved efficiency and scalability.</p>
+        <p class="tech-stack"><strong>Tech Stack</strong>: Sentence Transformers (SBERT).</p>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <h3>2022 H1</h3>
+      <div class="research-item">
+        <h4><span class="topic">Image Registration</span></h4>
+        <p>Researched local image feature matching using OpenCV-based methods (e.g., SIFT, ORB) and deep learning solutions (e.g., LoFTR).</p>
+        <p class="tech-stack"><strong>Tech Stack</strong>: OpenCV, Kornia.</p>
+      </div>
+      <div class="research-item">
+        <h4><span class="topic">Cloud Deployment</span></h4>
+        <p>Deployed an Intelligent Document Processing (IDP) pipeline on AWS, experimenting with distributed system designs for scalability and performance.</p>
+        <p class="tech-stack"><strong>Tech Stack</strong>: Docker, AWS Services, Seldon, Celery, FastAPI, Uvicorn.</p>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <h3>2021 H2</h3>
+      <div class="research-item">
+        <h4><span class="topic">Key-Value Pair Extraction</span></h4>
+        <p>Explored transformer-based architectures for key-value extraction, focusing on BERT-based models and their variations.</p>
+        <p class="tech-stack"><strong>Tech Stack</strong>: PyTorch, Hugging Face Transformers.</p>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <h3>2021 H1</h3>
+      <div class="research-item">
+        <h4><span class="topic">Model Compression</span></h4>
+        <p>Researched Knowledge Distillation and Post-Training Quantization (PTQ) for lightweight, high-performance models.</p>
+        <p class="tech-stack"><strong>Tech Stack</strong>: OpenVINO, TorchScript.</p>
+      </div>
+      <div class="research-item">
+        <h4><span class="topic">Model Serving</span></h4>
+        <p>Investigated efficient model serving methods using ONNX and TensorRT for optimized deployment.</p>
+        <p class="tech-stack"><strong>Tech Stack</strong>: TensorRT, ONNX.</p>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <h3>2020 H2</h3>
+      <div class="research-item">
+        <h4><span class="topic">Key-Value Pair Extraction</span></h4>
+        <p>Applied DGCNN and Residual Gated Graph ConvNets for key-value extraction. Enhanced spatial learning with CenterNET and explored metric learning techniques for embedding and clustering.</p>
+        <p class="tech-stack"><strong>Tech Stack</strong>: DGL, PyTorch Hub, pytorch-metric-learning.</p>
+      </div>
+      <div class="research-item">
+        <h4><span class="topic">Sentence Segmentation</span></h4>
+        <p>Developed strategies using Named Entity Recognition (NER) to segment sentences into meaningful pieces. Implemented GRU/LSTM with CRF loss for tokenization and tagging.</p>
+        <p class="tech-stack"><strong>Tech Stack</strong>: pytorch-crf.</p>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <h3>2020 H1</h3>
+      <div class="research-item">
+        <h4><span class="topic">Node Classification</span></h4>
+        <p>Investigated graph construction and applied Graph Attention Networks (GANs) for document node classification tasks.</p>
+        <p class="tech-stack"><strong>Tech Stack</strong>: DGL.</p>
+      </div>
+      <div class="research-item">
+        <h4><span class="topic">Document Embedding</span></h4>
+        <p>Researched graph-based solutions, including Graph Convolutional Networks (GCNs), for effective document embedding and representation.</p>
+        <p class="tech-stack"><strong>Tech Stack</strong>: DGL.</p>
+      </div>
+    </div>
     
-    <div class="project-item">
-      <h3>Yoga Assistant Chatbot</h3>
-      <p class="project-period">08/2023 - 05/2024</p>
-      <p>Leverages Retrieval-Augmented Generation (RAG) and Large Language Models (LLMs) to provide personalized, data-driven yoga guidance, enhancing practice and user experience.</p>
-    </div>
-
-    <div class="project-item">
-      <h3>Multimodal Architecture Innovation</h3>
-      <p class="project-period">05/2023 - 02/2024</p>
-      <p>Developed a lightweight, transformer-based multimodal backbone, leading to the acceptance of two research papers at ICDAR 2024.</p>
-    </div>
-
-    <div class="project-item">
-      <h3>LLMs Fine-tuning</h3>
-      <p class="project-period">04/2023 - 10/2023</p>
-      <p>Contributed to popular repositories by integrating 4-bit quantization and QLoRA techniques, driving advancements in efficient LLM fine-tuning within the open-source community.</p>
-    </div>
-
-    <div class="project-item">
-      <h3>Commodity Recommendation</h3>
-      <p class="project-period">01/2018 - 06/2018</p>
-      <p>Achieved a bronze medal in the AIGO Commodity Classification Challenge by developing a hierarchical categorization model for Google's product taxonomy, enhancing the accuracy and efficiency of product classification.</p>
+    <div class="timeline-item">
+      <h3>2019 H2</h3>
+      <div class="research-item">
+        <h4><span class="topic">Text Detection</span></h4>
+        <p>Researched CNN backbones and loss functions for encoder-decoder architectures in text detection.</p>
+        <p class="tech-stack"><strong>Tech Stack</strong>: Sagemaker, S3, TensorFlow, imgaug.</p>
+      </div>
+      <div class="research-item">
+        <h4><span class="topic">Text Recognition (OCR)</span></h4>
+        <p>Improved CRNN+CTC architecture for unlimited-length OCR decoding.</p>
+        <p class="tech-stack"><strong>Tech Stack</strong>: Sagemaker, S3, PyTorch.</p>
+      </div>
+    </div>    
+    <div class="timeline-item">
+      <h3>2019 H1</h3>
+      <div class="research-item">
+        <h4><span class="topic">Person Re-Identification</span></h4>
+        <p>Researched face detection and recognition solutions integrated with human re-identification architectures to develop a surveillance application.</p>
+        <p class="tech-stack"><strong>Tech Stack</strong>: FaceNet, R-CNN, DeepFace, MTCNN, SSD.</p>
+      </div>
     </div>
   </section>
-
-  <section class="achievements">
-    <h2><i class="fas fa-trophy"></i> Achievements</h2>
-    
-    <div class="achievement-item">
-      <h3>RAG Open-Source Champion</h3>
-      <p>Led the development and open-sourcing of "Kotaemon," a Retrieval-Augmented Generation (RAG) platform, which achieved approximately 20k GitHub stars and ranked as GitHub Trending Top 1 for several weeks, continuing to grow in popularity.</p>
-    </div>
-
-    <div class="achievement-item">
-      <h3>Strategic Business Partnerships</h3>
-      <p>Pitched and executed the company's strategic vision, successfully securing multiple key business partnership agreements, resulting in more than 100% growth in total contract value (TCV).</p>
-    </div>
-  </section>
-</div>
 
 <!-- Font Awesome -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
