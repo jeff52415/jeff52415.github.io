@@ -3,4 +3,5 @@ plugins:
 - jekyll-remote-theme
 
 title: Chening Yang
-description: AI Director | Leading R&D in VRDU and Agentic RAG 
+description: Leading R&D in VRDU and Agentic RAG 
+show_downloads: false
