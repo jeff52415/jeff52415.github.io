@@ -3,5 +3,5 @@ plugins:
 - jekyll-remote-theme
 
 title: Chening Yang
-description: Leading R&D in VRDU and Agentic RAG 
+description: Building Neural-Symbolic Agentic Systems and Model Domain Adaptation
 show_downloads: false
